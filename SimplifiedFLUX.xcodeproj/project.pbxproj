@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C22D33741E53178800B2FF11 /* Action.m in Sources */ = {isa = PBXBuildFile; fileRef = C22D33731E53178800B2FF11 /* Action.m */; };
+		C22D33771E531A6800B2FF11 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = C22D33761E531A6800B2FF11 /* Event.m */; };
+		C22D337D1E531C0200B2FF11 /* EventDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C22D337C1E531C0200B2FF11 /* EventDispatcher.m */; };
+		C24468E81E52C0AE00D607AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C24468E71E52C0AE00D607AD /* main.m */; };
+		C24468EB1E52C0AE00D607AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C24468EA1E52C0AE00D607AD /* AppDelegate.m */; };
+		C24468EE1E52C0AE00D607AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C24468ED1E52C0AE00D607AD /* ViewController.m */; };
+		C24468F11E52C0AE00D607AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24468EF1E52C0AE00D607AD /* Main.storyboard */; };
+		C24468F31E52C0AE00D607AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24468F21E52C0AE00D607AD /* Assets.xcassets */; };
+		C24468F61E52C0AE00D607AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24468F41E52C0AE00D607AD /* LaunchScreen.storyboard */; };
+		C24469031E52C22100D607AD /* ActionDispatcher.m in Sources */ = {isa = PBXBuildFile; fileRef = C24469021E52C22100D607AD /* ActionDispatcher.m */; };
+		C24469081E52C5AC00D607AD /* MyFirstActionReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = C24469071E52C5AC00D607AD /* MyFirstActionReceiver.m */; };
+		C244690C1E52C73900D607AD /* MySecondActionReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = C244690B1E52C73900D607AD /* MySecondActionReceiver.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C22D33721E53178800B2FF11 /* Action.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Action.h; path = ActionReceivers/Action.h; sourceTree = "<group>"; };
+		C22D33731E53178800B2FF11 /* Action.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Action.m; path = ActionReceivers/Action.m; sourceTree = "<group>"; };
+		C22D33751E531A6800B2FF11 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = EventDispatcher/Event.h; sourceTree = "<group>"; };
+		C22D33761E531A6800B2FF11 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = EventDispatcher/Event.m; sourceTree = "<group>"; };
+		C22D33781E531B6B00B2FF11 /* EventDispatcherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDispatcherProtocol.h; path = EventDispatcher/EventDispatcherProtocol.h; sourceTree = "<group>"; };
+		C22D337A1E531BC800B2FF11 /* EventReceiverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventReceiverProtocol.h; path = EventReceivers/EventReceiverProtocol.h; sourceTree = "<group>"; };
+		C22D337B1E531C0200B2FF11 /* EventDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventDispatcher.h; path = EventDispatcher/EventDispatcher.h; sourceTree = "<group>"; };
+		C22D337C1E531C0200B2FF11 /* EventDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventDispatcher.m; path = EventDispatcher/EventDispatcher.m; sourceTree = "<group>"; };
+		C24468E31E52C0AE00D607AD /* SimplifiedFLUX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplifiedFLUX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24468E71E52C0AE00D607AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C24468E91E52C0AE00D607AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C24468EA1E52C0AE00D607AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C24468EC1E52C0AE00D607AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C24468ED1E52C0AE00D607AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C24468F01E52C0AE00D607AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C24468F21E52C0AE00D607AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24468F51E52C0AE00D607AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C24468F71E52C0AE00D607AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24468FF1E52C0F700D607AD /* ActionDispatcherProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionDispatcherProtocol.h; path = ActionDispatcher/ActionDispatcherProtocol.h; sourceTree = "<group>"; };
+		C24469001E52C1B200D607AD /* Definitions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definitions.h; sourceTree = "<group>"; };
+		C24469011E52C22100D607AD /* ActionDispatcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionDispatcher.h; path = ActionDispatcher/ActionDispatcher.h; sourceTree = "<group>"; };
+		C24469021E52C22100D607AD /* ActionDispatcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionDispatcher.m; path = ActionDispatcher/ActionDispatcher.m; sourceTree = "<group>"; };
+		C24469041E52C2FB00D607AD /* ActionReceiverProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionReceiverProtocol.h; path = ActionReceivers/ActionReceiverProtocol.h; sourceTree = "<group>"; };
+		C24469061E52C5AC00D607AD /* MyFirstActionReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyFirstActionReceiver.h; path = ActionReceivers/MyFirstActionReceiver.h; sourceTree = "<group>"; };
+		C24469071E52C5AC00D607AD /* MyFirstActionReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyFirstActionReceiver.m; path = ActionReceivers/MyFirstActionReceiver.m; sourceTree = "<group>"; };
+		C24469091E52C5EC00D607AD /* Actions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Actions.h; path = ActionDispatcher/Actions.h; sourceTree = "<group>"; };
+		C244690A1E52C73900D607AD /* MySecondActionReceiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MySecondActionReceiver.h; path = ActionReceivers/MySecondActionReceiver.h; sourceTree = "<group>"; };
+		C244690B1E52C73900D607AD /* MySecondActionReceiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MySecondActionReceiver.m; path = ActionReceivers/MySecondActionReceiver.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C24468E01E52C0AE00D607AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C22D33791E531BA800B2FF11 /* EventReceivers */ = {
+			isa = PBXGroup;
+			children = (
+				C22D337A1E531BC800B2FF11 /* EventReceiverProtocol.h */,
+			);
+			name = EventReceivers;
+			sourceTree = "<group>";
+		};
+		C24468DA1E52C0AE00D607AD = {
+			isa = PBXGroup;
+			children = (
+				C24468E51E52C0AE00D607AD /* SimplifiedFLUX */,
+				C24468E41E52C0AE00D607AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24468E41E52C0AE00D607AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24468E31E52C0AE00D607AD /* SimplifiedFLUX.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24468E51E52C0AE00D607AD /* SimplifiedFLUX */ = {
+			isa = PBXGroup;
+			children = (
+				C24469001E52C1B200D607AD /* Definitions.h */,
+				C24468FE1E52C0D500D607AD /* EventDispatcher */,
+				C22D33791E531BA800B2FF11 /* EventReceivers */,
+				C24468FD1E52C0C700D607AD /* ActionDispatcher */,
+				C24469051E52C30200D607AD /* ActionReceivers */,
+				C24468E91E52C0AE00D607AD /* AppDelegate.h */,
+				C24468EA1E52C0AE00D607AD /* AppDelegate.m */,
+				C24468EC1E52C0AE00D607AD /* ViewController.h */,
+				C24468ED1E52C0AE00D607AD /* ViewController.m */,
+				C24468EF1E52C0AE00D607AD /* Main.storyboard */,
+				C24468F21E52C0AE00D607AD /* Assets.xcassets */,
+				C24468F41E52C0AE00D607AD /* LaunchScreen.storyboard */,
+				C24468F71E52C0AE00D607AD /* Info.plist */,
+				C24468E61E52C0AE00D607AD /* Supporting Files */,
+			);
+			path = SimplifiedFLUX;
+			sourceTree = "<group>";
+		};
+		C24468E61E52C0AE00D607AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C24468E71E52C0AE00D607AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C24468FD1E52C0C700D607AD /* ActionDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				C22D33721E53178800B2FF11 /* Action.h */,
+				C22D33731E53178800B2FF11 /* Action.m */,
+				C24468FF1E52C0F700D607AD /* ActionDispatcherProtocol.h */,
+				C24469011E52C22100D607AD /* ActionDispatcher.h */,
+				C24469021E52C22100D607AD /* ActionDispatcher.m */,
+			);
+			name = ActionDispatcher;
+			sourceTree = "<group>";
+		};
+		C24468FE1E52C0D500D607AD /* EventDispatcher */ = {
+			isa = PBXGroup;
+			children = (
+				C22D33751E531A6800B2FF11 /* Event.h */,
+				C22D33761E531A6800B2FF11 /* Event.m */,
+				C22D33781E531B6B00B2FF11 /* EventDispatcherProtocol.h */,
+				C22D337B1E531C0200B2FF11 /* EventDispatcher.h */,
+				C22D337C1E531C0200B2FF11 /* EventDispatcher.m */,
+			);
+			name = EventDispatcher;
+			sourceTree = "<group>";
+		};
+		C24469051E52C30200D607AD /* ActionReceivers */ = {
+			isa = PBXGroup;
+			children = (
+				C24469091E52C5EC00D607AD /* Actions.h */,
+				C24469041E52C2FB00D607AD /* ActionReceiverProtocol.h */,
+				C24469061E52C5AC00D607AD /* MyFirstActionReceiver.h */,
+				C24469071E52C5AC00D607AD /* MyFirstActionReceiver.m */,
+				C244690A1E52C73900D607AD /* MySecondActionReceiver.h */,
+				C244690B1E52C73900D607AD /* MySecondActionReceiver.m */,
+			);
+			name = ActionReceivers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C24468E21E52C0AE00D607AD /* SimplifiedFLUX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24468FA1E52C0AE00D607AD /* Build configuration list for PBXNativeTarget "SimplifiedFLUX" */;
+			buildPhases = (
+				C24468DF1E52C0AE00D607AD /* Sources */,
+				C24468E01E52C0AE00D607AD /* Frameworks */,
+				C24468E11E52C0AE00D607AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplifiedFLUX;
+			productName = SimplifiedFLUX;
+			productReference = C24468E31E52C0AE00D607AD /* SimplifiedFLUX.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24468DB1E52C0AE00D607AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = home;
+				TargetAttributes = {
+					C24468E21E52C0AE00D607AD = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C24468DE1E52C0AE00D607AD /* Build configuration list for PBXProject "SimplifiedFLUX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24468DA1E52C0AE00D607AD;
+			productRefGroup = C24468E41E52C0AE00D607AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C24468E21E52C0AE00D607AD /* SimplifiedFLUX */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24468E11E52C0AE00D607AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24468F61E52C0AE00D607AD /* LaunchScreen.storyboard in Resources */,
+				C24468F31E52C0AE00D607AD /* Assets.xcassets in Resources */,
+				C24468F11E52C0AE00D607AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24468DF1E52C0AE00D607AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24468EE1E52C0AE00D607AD /* ViewController.m in Sources */,
+				C24468EB1E52C0AE00D607AD /* AppDelegate.m in Sources */,
+				C22D33741E53178800B2FF11 /* Action.m in Sources */,
+				C24469081E52C5AC00D607AD /* MyFirstActionReceiver.m in Sources */,
+				C22D337D1E531C0200B2FF11 /* EventDispatcher.m in Sources */,
+				C22D33771E531A6800B2FF11 /* Event.m in Sources */,
+				C24469031E52C22100D607AD /* ActionDispatcher.m in Sources */,
+				C244690C1E52C73900D607AD /* MySecondActionReceiver.m in Sources */,
+				C24468E81E52C0AE00D607AD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C24468EF1E52C0AE00D607AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24468F01E52C0AE00D607AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C24468F41E52C0AE00D607AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24468F51E52C0AE00D607AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C24468F81E52C0AE00D607AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C24468F91E52C0AE00D607AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C24468FB1E52C0AE00D607AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplifiedFLUX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.SimplifiedFLUX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C24468FC1E52C0AE00D607AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplifiedFLUX/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.home.SimplifiedFLUX;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24468DE1E52C0AE00D607AD /* Build configuration list for PBXProject "SimplifiedFLUX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24468F81E52C0AE00D607AD /* Debug */,
+				C24468F91E52C0AE00D607AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24468FA1E52C0AE00D607AD /* Build configuration list for PBXNativeTarget "SimplifiedFLUX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24468FB1E52C0AE00D607AD /* Debug */,
+				C24468FC1E52C0AE00D607AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24468DB1E52C0AE00D607AD /* Project object */;
+}
